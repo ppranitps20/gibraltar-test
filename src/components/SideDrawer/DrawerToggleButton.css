@@ -1,0 +1,24 @@
+.toggle—button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background: #9747ff;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+
+.toggle—button:focus {
+  outline: none;
+}
+
+.toggle—button__line {
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+}
